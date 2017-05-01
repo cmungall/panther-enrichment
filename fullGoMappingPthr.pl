@@ -58,7 +58,6 @@ open(GOT, $go) or die $!;
 open(GOW, ">$goannow") or die $!;
 open(STDERR, ">$errFile") or die $!;
 
-
 while (<TAX>) 
 {
 	 chomp($_);
